@@ -19,7 +19,8 @@ public class Universidade {
         if (departamentos.size() < 10) {
             departamentos.add(departamento);
         } else {
-            throw new IllegalArgumentException("Uma universidade pode ter no máximo 10 departamentos.");
+            System.out.println("Uma universidade pode ter no máximo 10 departamentos.");
+            return;
         }
     }
 
